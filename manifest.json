@@ -2,11 +2,11 @@
   "domain": "youtube_thumbnail_media_player",
   "name": "YouTube Thumbnail Media Player",
   "version": "0.0.1",
-  "documentation": "https://example.com",
+  "documentation": "https://github.com/jstnjx/hass_youtube_thumbnail_media_player",
   "dependencies": [],
   "codeowners": ["@jstnjx"],
   "requirements": ["requests"],
-  "integration_type": "helper",
+  "integration_type": "device",
   "iot_class": "cloud_polling",
   "config_flow": true
 }
