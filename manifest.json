@@ -1,0 +1,12 @@
+{
+  "domain": "youtube_thumbnail_media_player",
+  "name": "YouTube Thumbnail Media Player",
+  "version": "0.0.1",
+  "documentation": "https://example.com",
+  "dependencies": [],
+  "codeowners": ["@jstnjx"],
+  "requirements": ["requests"],
+  "integration_type": "helper",
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
