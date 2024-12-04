@@ -5,8 +5,6 @@ Features
 
 Automatically updates media title, artist, and thumbnail when the user-defined media player is playing YouTube content.
 Sets the media player state to idle when the source is not YouTube.
-Provides error handling for invalid or rate-limited YouTube API keys.
-Lightweight integration designed to minimize API calls with caching support.
 
 ## Installation
 
@@ -38,7 +36,7 @@ Lightweight integration designed to minimize API calls with caching support.
 ###### Media Player Entity:
 Select an existing media player entity (e.g., a Chromecast or other supported device) whose state will be monitored.
 ###### YouTube API Key:
-Obtain an API key from the Google Cloud Console.
+Obtain an API key from the [Google Cloud Console](https://console.cloud.google.com/).
 
 ## Usage
 
@@ -56,7 +54,11 @@ Ensure you have properly configured the integration and restarted Home Assistant
 Check logs for any errors under Settings > System > Logs.
 
 ##### Missing Thumbnails:
-Thumbnails depend on the YouTube API. If the thumbnail does not appear, ensure your API key has sufficient quota.
+Thumbnails depend on the YouTube API. If the thumbnail does not appear, ensure your API key has sufficient quota. 
+
+#### Limitations:
+Since the integration grabs the title and artist reported by the media player entity and uses the YouTube Data API v3 to search YouTube for this specific query it is not 100% guaranteed that it grabs the right thumbnail.
+From my testing it worked everytime but never say never.
 
 ## Contributions
 
@@ -64,4 +66,4 @@ Contributions, suggestions, and bug reports are welcome! Please submit them via 
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/jstnjx/hass_youtube_media_player?tab=MIT-1-ov-file) file for details.
