@@ -1,8 +1,8 @@
 {
-  "domain": "youtube_thumbnail_media_player",
-  "name": "YouTube Thumbnail Media Player",
+  "domain": "youtube_media_player",
+  "name": "YouTube Media Player",
   "version": "0.0.1",
-  "documentation": "https://github.com/jstnjx/hass_youtube_thumbnail_media_player",
+  "documentation": "https://github.com/jstnjx/hass_youtube_media_player",
   "dependencies": [],
   "codeowners": ["@jstnjx"],
   "requirements": ["requests"],
