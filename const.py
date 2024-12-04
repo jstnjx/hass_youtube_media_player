@@ -1,1 +1,1 @@
-DOMAIN = "youtube_thumbnail_media_player"
+DOMAIN = "youtube_media_player"
