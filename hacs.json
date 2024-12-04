@@ -1,0 +1,7 @@
+{
+  "name": "YouTube Media Player",
+  "homeassistant": "2023.10.0",
+  "render_readme": true,
+  "zip_release": true,
+  "filename": "youtube_media_player.zip"
+}
