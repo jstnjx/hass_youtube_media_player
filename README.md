@@ -6,10 +6,19 @@ Features
 Automatically updates media title, artist, and thumbnail when the user-defined media player is playing YouTube content.
 Sets the media player state to idle when the source is not YouTube.
 
-## Installation
+## HACS Installation (recommended)
+
+1. Install HACS if you don't have it already
+2. Open HACS in Home Assistant
+3. Add this repository as integration
+4. Search for "YouTube Media Player"
+5. Download
+6. Go to Devices & Services
+7. Add the integration and configure it by selecting a media player entity and entering your YouTube API key
+
+## Manual Installation
 
 1. Download the Integration: Clone or download this repository.
-
 2. Copy to Home Assistant: Place the youtube_media_player folder into the custom_components directory in your Home Assistant configuration folder. If the folder doesn’t exist, create it.
     
         custom_components/      
@@ -21,12 +30,10 @@ Sets the media player state to idle when the source is not YouTube.
             └── manifest.json
 
 3. Restart Home Assistant: Restart your Home Assistant instance to recognize the new integration.
-
 4. Add the Integration:
     Go to Settings > Devices & Services > Add Integration.
     Search for "YouTube Thumbnail Media Player."
     Configure the integration by selecting a media player entity and entering your YouTube API key.
-
 5. Enjoy: A new media player entity will be created with dynamic YouTube metadata and thumbnails.
 
 ## Configuration Options
